@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!-- Licensed to the Apache Software Foundation (ASF) under one or more
+contributor license agreements. See the NOTICE file distributed with this
+work for additional information regarding copyright ownership. The ASF
+licenses this file to you under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License. You may
+obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. See the License for
+the specific language governing permissions and limitations under the License.
+-->
+<html>
+  
+  <head>
+   <meta charset=ISO-8859-2>
+    <meta name="format-detection" content="telephone=no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height
+    attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"
+    />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <title>
+      Home - Nossa Lista
+    </title>
+  </head>
+  
+  <body style='background: white;'>
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+      <div class="container" style='background: yellow;'>
+        <div class="navbar-header" style='text-align:center;'>
+          <div class='row '>
+            <div class='col-xs-12 '>
+              <img src='img/logo1.png' class="" style='text-align: center;' />
+            </div>
+          </div>
+          <div class='row'>            
+            <div class='col-xs-12' style='background: #A3A3A3;'>
+              <ul class="nav nav-pills nav-stacked">
+                <li class="active">
+                  <a href="#">
+					  <span class="badge pull-right" data-toggle="modal" data-target="#myModal">Alterar?</span>
+					  Piumhi
+					</a>
+                </li>
+              </ul>
+            </div>           
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-xs-1' style=''>
+          
+        </div>
+        <div class='col-xs-10' style='text-align:left;'>
+		<div class="input-group">
+		  <input type="text" class="form-control" placeholder='Pesquise aqui'>
+		  <a class="input-group-addon"><img src='img/search.png' style='height: 20px;' class=''/></a>
+		</div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br/>
+    <div class='container-fluid'>
+		<div class='row'>
+			<div class='col-xs-12'>
+				<span class='' style='text-align: center; font-size:10px; color: #a0a0a0; padding: 3px;'>Busque pelas Categorias</span>
+			</div>
+		</div>
+      <div class='row'>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+             <img src='img/Agronegocios.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Agronegócios
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+              <img src='img/AlimentacaoEBebidas.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Alimentaçăo e Bebidas
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;'>		  
+              <img src='img/AnimaisECia.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Animais e Cia
+            </span>
+          </div>
+        </div>
+      </div>
+      <br/>
+	  <div class='row'>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+              <img src='img/ArquiteturaEConstrucao.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;' class='img-responsive'>
+              Arquitetura e Construçăo
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+            <img src='img/BelezaEEstetica.png'
+            class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Beleza e Estética
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;'>		  
+              <img src='img/CasaEDecoracao.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Casa e Decoraçăo
+            </span>
+          </div>
+        </div>
+      </div>
+      <br/>
+	  <div class='row'>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+              <img src='img/Comercio.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Comércio
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+            <img src='img/CursosEEducacao.png'
+            class='img-responsive'/>
+            <span style='font-size: 10px;  text-align: center; padding: 5px;'>
+              Cursos e Educaçăo
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;'>		  
+              <img src='img/Entretenimento.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Entretenimento
+            </span>
+          </div>
+        </div>
+      </div>
+      <br/>
+	  <div class='row'>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+              <img src='img/FestasEEventos.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Festas e Eventos
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+              <img src='img/Imoveis.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Imóveis
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;'>		  
+              <img src='img/Industria.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Indústria
+            </span>
+          </div>
+        </div>
+      </div>
+      <br/>
+	  <div class='row'>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+              <img src='img/Informatica.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Informática
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+              <img src='img/Saude.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Saúde
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;'>		  
+              <img src='img/Servicos.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center;'>
+              Serviços
+            </span>
+          </div>
+        </div>
+      </div>
+      <br/>
+	  <div class='row'>
+        <div class='col-xs-4'>
+          <div style='background: #f0f0f0; padding: 5px; text-align: center;' onclick='callAnothePage("listResultados.html")'>
+              <img src='img/Veiculos.png' class='img-responsive' />
+            <span style='font-size: 10px;  text-align: center; '>
+              Veículos
+            </span>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          
+        </div>
+        <div class='col-xs-4'>
+          
+      </div>
+      <br/>
+      
+    </div>
+	
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title" id="myModalLabel">Alterar Cidade</h4>
+		  </div>
+		  <div class="modal-body">
+		  <h4>Selecione uma Cidade para ver suas opçőes:</h4>
+			<select class='form-control'>
+				<option value='Selecione'>Selecione</option>
+				<option value='Ipatinga'>Ipatinga</option>
+				<option value='Piumhi'>Piumhi</option>
+				<option value='Caguarita'>Caguarita</option>
+				<option value='Terras de Minas'>Terras de Minas</option>
+			</select>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Confirmar</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+    <script type="text/javascript" src="cordova.js">
+        
+    </script>
+    <script type="text/javascript" src="js/index.js">
+        
+    </script>
+    <script type="text/javascript" src="js/jquery.js">
+        
+    </script>
+    <script type="text/javascript" src="js/bootstrap.js">
+        
+    </script>
+    <script type="text/javascript">
+                    app.initialize();
+    </script>
+    <script>
+              
+
+          function callAnothePage(path)
+          {
+            window.location = path;
+          }
+    </script>
+  </body>
+
+</html>
